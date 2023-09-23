@@ -1,38 +1,141 @@
-.App {
+h1 {
   text-align: center;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.DatosPersonales {
+  text-align: center;
+  font-family: Arial, sans-serif;
+  background-color: #f8f8f8;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.DatosPersonales h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.DatosPersonales h5 {
+  font-size: 18px;
+  margin-bottom: 5px;
+}
+
+.DatosPersonales .contact-info ul {
+  list-style: none;
+  padding: 0;
+}
+
+.DatosPersonales .contact-info li {
+  font-size: 16px;
+  line-height: 1.6;
+}
+
+.DatosPersonales .contact-info strong {
+  font-weight: bold;
+  margin-right: 5px;
+}
+.ExperienciaLaboral {
+  font-family: Arial, sans-serif;
+  background-color: #f8f8f8;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.ExperienciaLaboral h2,
+.ExperienciaLaboral h3 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.ExperienciaLaboral ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.ExperienciaLaboral li {
+  font-size: 16px;
+  line-height: 1.6;
+}
+
+.ExperienciaLaboral a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+.ExperienciaLaboral a:hover {
+  text-decoration: underline;
+}
+.ExperienciaLaboral {
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  text-align: center;
+}
+.ExperienciaLaboral p {
+  margin: 10px 0;}
+
+
+
+.Educacion {
+  text-align: center;
+  font-family: Arial, sans-serif;
+  background-color: #f8f8f8;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
-.App-link {
-  color: #61dafb;
+.Educacion h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.Educacion h3 {
+  font-size: 18px;
+  margin-bottom: 5px;
 }
+
+.Educacion .educacion-item {
+  margin-bottom: 20px;
+}
+
+.Educacion ul {
+  list-style: none;
+  padding: 0;
+}
+
+.Educacion li {
+  font-size: 16px;
+  line-height: 1.6;
+}
+
+.Educacion .educacion-item h3 {
+  font-size: 20px;
+}
+
+.Educacion .educacion-item p {
+  font-size: 16px;
+}
+.foto {
+  max-width: 50px;
+  height: auto;
+  border-radius: 50%;
+  border: 2px solid #fff;
+}
+
+
+.profile-picture {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.profile-image {
+  max-width: 150px;
+  height: auto;
+  border-radius: 50%;
+  border: 2px solid #fff;
+}
+
+
+
